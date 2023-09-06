@@ -12,6 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .container{
@@ -26,7 +27,14 @@
 .container__titulo{
     display: none;
 }
-
+.lista-menu{
+    display: nome;
+    position:absolute;
+    top:100%;
+}
+.container botao: chercked~.lista-menu{
+    diplay: block;
+}
 @media screen and (min-width: 1024px){
     .container__titulo{
         font-family: var(--fonte-secundaria);
