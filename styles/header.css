@@ -31,14 +31,35 @@
     display: nome;
     position:absolute;
     top:100%;
+    width: 60vw;
 }
 .container__botao:checked~.lista-menu{
-    diplay: block;
+    diplay: block;ont-size: 30px;
 }
+
+.lista-menu___titulo,  .lista-menu___item{
+    padding: 1em;
+    background-color: var(--branco);
+
+}
+
+.lista-menu___titulo{
+    color: var(--amarelo);
+
+}
+.lista-menu___link{
+  background: var (--roxo-degrade);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: tranparent;
+  background-clip: text;
+  text-transform: uppercase;
+
+}
+
 @media screen and (min-width: 1024px){
     .container__titulo{
         font-family: var(--fonte-secundaria);
-        font-size: 30px;
+        f
         font-weight: 400;
         display: block;
     }
