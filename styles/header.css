@@ -34,7 +34,8 @@
     width: 60vw;
 }
 .container__botao:checked~.lista-menu{
-    diplay: block;ont-size: 30px;
+    display: block;
+    font-size: 30px;
 }
 
 .lista-menu___titulo,  .lista-menu___item{
