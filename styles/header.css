@@ -56,6 +56,13 @@
   text-transform: uppercase;
 
 }
+.container__texto{
+    display: none;
+}
+
+.opções{
+    display: none;
+}
 
 @media screen and (min-width: 1024px){
     .container__titulo{
@@ -66,6 +73,18 @@
     }
     .container__titulo--negrito{
         font-weight: 700;
+    }
+    .opções{
+        display: flex;
+    }
+    .opções__item{
+        padding: 0 1em;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    .opções__link{
+        text-decoration: none;
+        color: var(--preto);
     }
 }
 
